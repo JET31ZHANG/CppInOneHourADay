@@ -1,0 +1,34 @@
+// demonstrating equality and relational operators 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Enter two integers:" << endl;
+    int num1 = 0, num2 = 0;
+    cin >> num1;
+    cin >> num2;
+
+    bool isEqual = (num1 == num2);
+    cout << "Result of equality test: " << isEqual << endl;
+
+    bool isUnequal = (num1 != num2);
+    cout << "Result of inequality test: " << isUnequal << endl;
+
+    bool isGreaterThan = (num1 > num2);
+    cout << "Result of " << num1 << " > " << num2;
+    cout << " test: " << isGreaterThan << endl;
+
+    bool isLessThan = (num1 < num2);
+    cout << "Result of " << num1 << " < " << num2 << " test: " << isLessThan << endl;
+
+    bool isGreaterThanEuals = (num1 >= num2);
+    cout << "Result of " << num1 << " >= " << num2;
+    cout << " test: " << isGreaterThanEuals << endl;
+    
+    bool isLessThanEquals = (num1 <= num2);
+    cout << "Result of " << num1 << " <= " << num2;
+    cout << " test: " << isLessThanEquals << endl;
+
+    return 0;
+}
